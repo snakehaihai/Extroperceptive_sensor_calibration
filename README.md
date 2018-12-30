@@ -13,7 +13,7 @@ The uploaded version is build with 3 sensor case. To use more, feel free to add 
 Planner constraint and Constraint Jacobian in the optimization function. Each new sensor need to add at least 1 planner constaint function
 
 # Build
- Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
+ Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-kinetic
 
 Do not use sudo apt get way to get library as MRPT is heavy gcc-version depended.
 Do not download mrpt_bridge as it still has bugs in converting timestamp.
