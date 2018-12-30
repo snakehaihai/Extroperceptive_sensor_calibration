@@ -39,6 +39,8 @@ make
 
 Download two of the files in ros catkin_ws.
 then. 
+modify the directory in the CMAKELIST into your own build directory. If you only use one version of MRPT and it is make install into your OS, remove the path link in the CMAKELIST.
+
 
 catkin_make
 
