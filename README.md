@@ -1,8 +1,12 @@
 # Extroperceptive_sensor_calibration
 This is a package for calibrate multiple extroperceptive sensors
 
-Only tested with Ubuntu 16.04 
-Build MRPT 1.5 on your own PC. Do not use sudo apt get way 
+Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
+
+
+Do not use sudo apt get way to get library as there are multiple machine depended case which prevent you from compile succesfull.
+Do not download mrpt_bridge as it still has bugs in converting timestamp.
+Build MRPT 1.5 on your own PC. 
 
 git clone https://github.com/MRPT/mrpt/tree/mrpt-1.5
 
@@ -21,4 +25,16 @@ make
 
 
 Download two of the files in ros catkin_ws
-then catkin_make
+then 
+catkin_make
+
+
+To run 
+cd catkin_ws
+source ./devel/setup.bash
+rosrun lidartocameracalib lidartocameracalib sensor.ini rawlog
+
+
+
+
+
