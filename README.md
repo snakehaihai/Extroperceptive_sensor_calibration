@@ -2,9 +2,13 @@
 This is a package for calibrating multiple extroperceptive sensors
 
 This code is originally for mulitple 2D LIDAR calibration.  
-Now this package is refined and expanded into multiple sensor case such as (LIDAR-LIDAR,  LIDAR to RGBD, 2DLIDAR to 3DLIDAR and LIDAR to stereo)
+Now this package is refined and expanded into multiple sensor case such as 
 
-So far it uploaded with 3 sensor case. To use more, feel free to add more planner constraint cases in the optimization function 
+(LIDAR-LIDAR,  LIDAR to RGBD, 2DLIDAR to 3DLIDAR and LIDAR to stereo)
+
+So far it uploaded with 3 sensor case. To use more, feel free to add more 
+
+planner constraint and Constraint jacobian in the optimization function 
 
 Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
 
