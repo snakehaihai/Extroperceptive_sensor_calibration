@@ -24,14 +24,18 @@ make
 
 
 
-Download two of the files in ros catkin_ws
-then 
+Download two of the files in ros catkin_ws.
+then. 
+
 catkin_make
 
 
 To run 
+
 cd catkin_ws
+
 source ./devel/setup.bash
+
 rosrun lidartocameracalib lidartocameracalib sensor.ini rawlog
 
 
