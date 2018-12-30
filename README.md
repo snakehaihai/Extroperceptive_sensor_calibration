@@ -3,8 +3,7 @@ This is a package for calibrating multiple extroperceptive sensors
 ![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/process.png) 
 ![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/result.png) 
 
-This code is originally for multiple 2D LIDAR calibrations.  
-And the original method as for mulitple 2D lidar and not it is expanded into multiple sensor cases such as 
+This code was deisgned for mulitple 2D lidar calibration and now it is expanded for general extroperceptive sensors cases such as 
 (2DLIDAR-2DLIDAR,  2DLIDAR to RGBD, 2DLIDAR to 3DLIDAR and 2DLIDAR to stereo).
 
 So far the uploaded version is build with 3 sensor case. To use more, feel free to add more 
