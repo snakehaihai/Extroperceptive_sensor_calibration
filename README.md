@@ -71,9 +71,9 @@ To use it with your own data
 # Reference
 The code was partially adopted from 
 
-Eduardo Fernández-Moral, Javier González-Jiménez, Vicente Arévalo. Extrinsic calibration of 2D laser rangefinders from perpendicular plane observations. Int. J. Rob. Res. 34, 11 (September 2015), 1401-1417. DOI: https://doi.org/10.1177/0278364915580683
+Eduardo Fernández-Moral, Javier González-Jiménez, Vicente Arévalo. Extrinsic calibration of 2D laser rangefinders from perpendicular plane observations. Int. J. Rob. Res. 34, 11 (September 2015), 1401-1417. 
 
-Their original code is broken and was not fixed for a long time. Feel free to take a look at their orignal code
+Their original code is broken and was not maintained anymore
 
 
 
