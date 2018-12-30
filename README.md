@@ -63,17 +63,10 @@ To use it with your own data
 
 # Failure case
 1. If your initial guess is too far from the actual case, there is a high chance it might not find a proper result. Try to input a proper one
-2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. Thus the update process can not run.  Try to record another set of data
-3. Sensor data reqires to have a at least 1 cross point for each of the two sensor. For total none overlap case, there is no way to calibrate them without ground truth position. 
+2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. This can happen quite often when all sensor reports the same right angle at same time. Thus the update process can not run.  Try to record another set of data with slightly modified position
+3. Sensor data reqires to have a at least 1 cross point for each of the two sensor. For total none overlap case, there is no way to calibrate them. 
 
 
-
-# Reference
-The code was partially adopted from 
-
-Eduardo Fernández-Moral, Javier González-Jiménez, Vicente Arévalo. Extrinsic calibration of 2D laser rangefinders from perpendicular plane observations. Int. J. Rob. Res. 34, 11 (September 2015), 1401-1417. 
-
-Their original code is broken and was not maintained anymore
 
 
 
