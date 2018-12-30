@@ -10,7 +10,7 @@ The uploaded version is build with 3 sensor case. To use more, feel free to add 
 Planner constraint and Constraint Jacobian in the optimization function.  
 
 
-Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
+# Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
 
 Do not use sudo apt get way to get library as MRPT is heavy compiler depended.
 Do not download mrpt_bridge as it still has bugs in converting timestamp.
@@ -40,7 +40,7 @@ modify the directory in the CMAKELIST into your own build directory. If you only
 catkin_make
 
 
-To run 
+# To run 
 
 cd catkin_ws
 
@@ -57,19 +57,21 @@ To use it with your own data
 3. call it with     rosrun  lidartocameracalib lidartocameracalib your_sensor.ini your_sensor_rawlog
 
 
+# Failure case
+1. If your initial guess is too far from the actual case, there is a high chance it might not find a proper result. Try to input a proper one
+2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. Thus the update process can not run.  Try to record another set of data
+3. Sensor data reqires to have a at least 1 cross point for each of the two sensor. For total none overlap case, there is no way to calibrate them without ground truth position. 
+
+# Disclaimer
+We do not grauntee 100% working of the code. Feel free to modifiy and use. But we will not be taken responsible for any drone crash, car crash or any damage caused by this package. Use it at your own risk!!!
 
 
 
-the code was partially adopted from 
+The code was partially adopted from 
 
 Eduardo Fernández-Moral, Javier González-Jiménez, Vicente Arévalo. Extrinsic calibration of 2D laser rangefinders from perpendicular plane observations. Int. J. Rob. Res. 34, 11 (September 2015), 1401-1417. DOI: https://doi.org/10.1177/0278364915580683
 
 Their original code is broken and was not fixed for a long time. Feel free to take a look at their orignal code
 
 
-
-Failure case
-1. If your initial guess is too far from the actual case, there is a high chance it might not find a proper result. Try to input a proper one
-2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. Thus the update process can not run.  Try to record another set of data
-3. Sensor data reqires to have a at least 1 cross point for each of the two sensor. For total none overlap case, there is no way to calibrate them without ground truth position. 
 
