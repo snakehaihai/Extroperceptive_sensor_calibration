@@ -1,3 +1,6 @@
+# Disclaimer
+We do not grauntee 100% working of the code. Feel free to modifiy and use. But we will not be taken responsible for any drone crash, car crash, life loss or any damage caused by this package. Use and modify it at your own risk!!!
+
 # Extroperceptive_sensor_calibration
 This is a package for calibrating multiple extroperceptive sensors
 ![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/process.png) 
@@ -61,9 +64,6 @@ To use it with your own data
 1. If your initial guess is too far from the actual case, there is a high chance it might not find a proper result. Try to input a proper one
 2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. Thus the update process can not run.  Try to record another set of data
 3. Sensor data reqires to have a at least 1 cross point for each of the two sensor. For total none overlap case, there is no way to calibrate them without ground truth position. 
-
-# Disclaimer
-We do not grauntee 100% working of the code. Feel free to modifiy and use. But we will not be taken responsible for any drone crash, car crash or any damage caused by this package. Use it at your own risk!!!
 
 
 
