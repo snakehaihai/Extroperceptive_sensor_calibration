@@ -2,8 +2,6 @@
 This is a package for calibrating multiple extroperceptive sensors
 ![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/process.png) 
 ![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/result.png) 
-![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/calibout.png) 
-![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/calibout1.png) 
 
 This code is originally for multiple 2D LIDAR calibrations.  
 Here, this package include multiple bug fix, RANSAC fix on original work. 
