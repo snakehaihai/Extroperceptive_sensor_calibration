@@ -75,5 +75,5 @@ Their original code is broken and was not fixed for a long time. Feel free to ta
 
 Failure case
 1. If your initial guess is too far from the actual case, there is a high chance it might not find a proper result. Try to input a proper one
-2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution has the hessian is non-invertible.  Try to record another set of data
+2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. Thus the update process can not run.  Try to record another set of data
 
