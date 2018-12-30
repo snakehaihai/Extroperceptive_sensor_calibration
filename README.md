@@ -6,8 +6,8 @@ This is a package for calibrating multiple extroperceptive sensors
 This code was deisgned for mulitple 2D lidar calibration and now it is expanded for general extroperceptive sensors cases such as 
 (2DLIDAR-2DLIDAR,  2DLIDAR to RGBD, 2DLIDAR to 3DLIDAR and 2DLIDAR to stereo).
 
-So far the uploaded version is build with 3 sensor case. To use more, feel free to add more 
-Planner constraint and Constraint Jacobian in the optimization function 
+The uploaded version is build with 3 sensor case. To use more, feel free to add more 
+Planner constraint and Constraint Jacobian in the optimization function.  
 
 
 Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
@@ -71,4 +71,5 @@ Their original code is broken and was not fixed for a long time. Feel free to ta
 Failure case
 1. If your initial guess is too far from the actual case, there is a high chance it might not find a proper result. Try to input a proper one
 2. If somehow the resulting fisher information matrix goes into the degenerative case or put the other word, det(FIM)=0 . There would be no solution as the hessian is non-invertible. Thus the update process can not run.  Try to record another set of data
+3. Sensor data reqires to have a at least 1 cross point for each of the two sensor. For total none overlap case, there is no way to calibrate them without ground truth position. 
 
