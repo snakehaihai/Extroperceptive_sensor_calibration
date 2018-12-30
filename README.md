@@ -17,7 +17,7 @@ Planner constraint and Constraint Jacobian in the optimization function. Each ne
 
 Do not use sudo apt get way to get library as MRPT is heavy gcc-version depended.
 Do not download mrpt_bridge as it still has bugs in converting timestamp.
-Build MRPT 1.5 on your own PC. (Frankly speaking MRPT is one of the most buggy platform with better math integration. If you have MRPT related problem. Please open an issue there. Usually takes 2 to 6 month b4 any 1 will reply you) 
+Build MRPT 1.5 on your own PC. (Frankly speaking MRPT is one of the most buggy platform with better multi domain math integration. If you have MRPT related problem. Please open an issue there. Usually takes 2 to 6 month b4 any 1 will reply you) 
 
 git clone https://github.com/MRPT/mrpt/tree/mrpt-1.5
 
