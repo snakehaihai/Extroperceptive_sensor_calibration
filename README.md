@@ -6,9 +6,12 @@ This is a package for calibrating multiple extroperceptive sensors
 ![alt tag](https://github.com/snakehaihai/Extroperceptive_sensor_calibration/blob/master/output/calibout1.png) 
 
 This code is originally for multiple 2D LIDAR calibrations.  
-Now this package is refined and expanded into multiple sensor cases such as 
+Here, this package include multiple bug fix, RANSAC fix on original work. 
+
+And it is expanded into multiple sensor cases such as 
 (2DLIDAR-2DLIDAR,  2DLIDAR to RGBD, 2DLIDAR to 3DLIDAR and 2DLIDAR to stereo).
-So far it uploaded with 3 sensor case. To use more, feel free to add more 
+
+So far the uploaded version is build with 3 sensor case. To use more, feel free to add more 
 Planner constraint and Constraint Jacobian in the optimization function 
 
 
