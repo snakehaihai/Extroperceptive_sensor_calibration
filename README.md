@@ -51,7 +51,8 @@ source ./devel/setup.bash
 
 rosrun lidartocameracalib lidartocameracalib sensor.ini rawlog
 
-The sample given is 3LIDAR case
+# To use with your work sensor
+The sample given is 3LIDAR case. For 2 x 2D LIDAR and one RGBD camera case is given in the other directory called lidartocameracalib_recorddata, you can take a look at how to process it. 
 To use it with your own data
 1. Record your data into the rawlog. Remember to add sensor frame ID and many other things such as FOV, aperture size etc
 
