@@ -9,8 +9,8 @@ This code was deisgned for mulitple 2D lidar calibration and now it is expanded 
 The uploaded version is build with 3 sensor case. To use more, feel free to add more 
 Planner constraint and Constraint Jacobian in the optimization function.  
 
-
-# Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
+# Build
+ Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
 
 Do not use sudo apt get way to get library as MRPT is heavy compiler depended.
 Do not download mrpt_bridge as it still has bugs in converting timestamp.
@@ -40,7 +40,7 @@ modify the directory in the CMAKELIST into your own build directory. If you only
 catkin_make
 
 
-# To run 
+# Run 
 
 cd catkin_ws
 
