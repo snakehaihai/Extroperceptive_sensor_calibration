@@ -29,8 +29,12 @@ libassimp-dev libjpeg-dev   libsuitesparse-dev libpcap-dev liboctomap-dev
 
 then 
 
-mkdir build && cd build
+mkdir build 
+
+cd build
+
 cmake ..
+
 make
 
 
