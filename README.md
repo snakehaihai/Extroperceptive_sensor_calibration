@@ -10,7 +10,7 @@ This code was deisgned for mulitple 2D lidar calibration and now it is expanded 
 (2DLIDAR-2DLIDAR,  2DLIDAR to RGBD, 2DLIDAR to 3DLIDAR and 2DLIDAR to stereo).
 
 The uploaded version is build with 3 sensor case. To use more, feel free to add more 
-Planner constraint and Constraint Jacobian in the optimization function.  
+Planner constraint and Constraint Jacobian in the optimization function. Each new sensor need to add at least 1 planner constaint function
 
 # Build
  Only tested with Ubuntu 16.04, MRPT 1.5 and ROS-Kietic
