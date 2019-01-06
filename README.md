@@ -74,5 +74,5 @@ To use it with your own data
 
 
 
-Acknowledgement: [Eduardo Fernandez-Moral](https://github.com/EduFdez)
+Acknowledgement: MRPT at [Eduardo Fernandez-Moral](https://github.com/EduFdez)
 
