@@ -1,5 +1,7 @@
 # Disclaimer
-We do not grauntee 100% working of the code. Feel free to modifiy and use. But we will not be taken responsible for any drone crash, car crash, life loss or any damage caused by this package. Use and modify it at your own risk!!!
+We do not grauntee 100% working of the code. Feel free to modifiy and use. 
+
+I will not be taken responsible for any drone crash, car crash, life loss or any damage caused by this package. Use and modify it at your own risk!!!
 
 # Extroperceptive_sensor_calibration
 This is a package for calibrating multiple extroperceptive sensors
